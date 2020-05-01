@@ -1,0 +1,661 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  1 MAY 2020 11:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**newversion
+(./newversion.tex
+LaTeX2e <2018-12-01>
+(/Users/jklymak/Library/texmf/tex/AMS_LaTeX/ametsocV5.cls
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box27
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box28
+\last@line=\box29
+\maxbalancingoverflow=\dimen110
+\mult@rightbox=\box30
+\mult@grightbox=\box31
+\mult@gfirstbox=\box32
+\mult@firstbox=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box51
+\colbreak@box=\box52
+\mc@col@check@num=\count96
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count97
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box53
+\rot@mess@toks=\toks15
+)
+\c@extraauth=\count98
+\c@loopnum=\count99
+\thanksnum=\count100
+\savethanksnum=\count101
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyref/fancyref.sty
+Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
+\c@vrcnt=\count102
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip58
+\UL@hook=\toks17
+\UL@height=\dimen114
+\UL@pe=\count103
+\UL@pixel=\dimen115
+\ULC@box=\box56
+Package: ulem 2012/05/18
+\ULdepth=\dimen116
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count104
+\lst@gtempboxa=\box57
+\lst@token=\toks18
+\lst@length=\count105
+\lst@currlwidth=\dimen117
+\lst@column=\count106
+\lst@pos=\count107
+\lst@lostspace=\dimen118
+\lst@width=\dimen119
+\lst@newlines=\count108
+\lst@lineno=\count109
+\lst@maxwidth=\dimen120
+
+(/Users/jklymak/Library/texmf/tex/listings/lstpatch.sty
+File: lstpatch.sty 2003/08/13 1.1c (Carsten Heinz)
+
+
+***
+*** This is a patch for listings 1.1, but you're using
+*** version 1.8b.
+***
+*** Patch file not loaded.
+***
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count110
+\lst@skipnumbers=\count111
+\lst@framebox=\box58
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(./newversion.aux)
+\openout1 = `newversion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen121
+\scratchbox=\box59
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen122
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks20
+)
+\c@lstlisting=\count118
+LaTeX Font Info:    Calculating math sizes for size <9.85> on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6.89497> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <8.5> not available
+(Font)              size <8> substituted on input line 106.
+
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 106.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
+(Font)              size <5> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 106.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
+(Font)              size <5> substituted on input line 106.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+
+Underfull \hbox (badness 4291) in paragraph at lines 115--121
+|   []   |   []   |   [][][]|   []   |   []
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 115--121
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 115--121
+|   []   |   []   |   []   |   []   [][]|   []   []\OT1/cmr/m/n/10 the
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 115--121
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
+
+
+Overfull \vbox (16.80336pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 33.39447pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+[2]
+Underfull \hbox (badness 1484) in paragraph at lines 153--154
+\OT1/cmr/m/n/10 in Kly-mak (2018), and in-spired by Nikurashin
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 153--154
+\OT1/cmr/m/n/10 force meant to sim-u-late an []|   []   |   []
+ []
+
+</Users/jklymak/ForcedChannel5k/figs/ModelSetup.pdf, id=29, 325.215pt x 332.442
+02pt>
+File: /Users/jklymak/ForcedChannel5k/figs/ModelSetup.pdf Graphic file (type pdf
+)
+<use /Users/jklymak/ForcedChannel5k/figs/ModelSetup.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/ModelSetup.pdf  us
+ed on input line 171.
+(pdftex.def)             Requested size: 231.26378pt x 236.41084pt.
+
+Overfull \hbox (3.26378pt too wide) in paragraph at lines 171--175
+ [] 
+ []
+
+</Users/jklymak/ForcedChannel5k/figs/Bathys.pdf, id=30, 433.62pt x 332.44202pt>
+
+File: /Users/jklymak/ForcedChannel5k/figs/Bathys.pdf Graphic file (type pdf)
+<use /Users/jklymak/ForcedChannel5k/figs/Bathys.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/Bathys.pdf  used o
+n input line 183.
+(pdftex.def)             Requested size: 231.26378pt x 177.30434pt.
+
+Overfull \hbox (3.26378pt too wide) in paragraph at lines 183--187
+ [] 
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 191--193
+[]\OT1/cmr/m/n/10 These sim-u-la-tions were run in stages; a []|   []
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 194--194
+[]\OT1/cmr/bx/n/10 Parameterizing drag due to []|   []
+ []
+
+</Users/jklymak/AbHillParam/python/doc/PowerlawDep.pdf, id=31, 505.89pt x 505.8
+9pt>
+File: /Users/jklymak/AbHillParam/python/doc/PowerlawDep.pdf Graphic file (type 
+pdf)
+<use /Users/jklymak/AbHillParam/python/doc/PowerlawDep.pdf>
+Package pdftex.def Info: /Users/jklymak/AbHillParam/python/doc/PowerlawDep.pdf 
+ used on input line 200.
+(pdftex.def)             Requested size: 289.07999pt x 289.08589pt.
+[3] [4 </Users/jklymak/ForcedChannel5k/figs/ModelSetup.pdf> </Users/jklymak/For
+cedChannel5k/figs/Bathys.pdf
+
+pdfTeX warning: pdflatex (file /Users/jklymak/ForcedChannel5k/figs/Bathys.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+[]\OT1/cmr/bx/n/10 Wind-forced []|   []
+ []
+
+[5 </Users/jklymak/AbHillParam/python/doc/PowerlawDep.pdf>]
+</Users/jklymak/ForcedChannel5k/figs/ExampleTemps.pdf, id=188, 578.16pt x 379.4
+175pt>
+File: /Users/jklymak/ForcedChannel5k/figs/ExampleTemps.pdf Graphic file (type p
+df)
+<use /Users/jklymak/ForcedChannel5k/figs/ExampleTemps.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/ExampleTemps.pdf  
+used on input line 234.
+(pdftex.def)             Requested size: 433.62pt x 284.56242pt.
+
+Underfull \hbox (badness 8189) in paragraph at lines 231--241
+[]\OT1/cmr/m/n/10 The []|   []   |   []   [][]|   []
+ []
+
+</Users/jklymak/ForcedChannel5k/figs/Spectra2D.pdf, id=189, 462.52798pt x 346.8
+9601pt>
+File: /Users/jklymak/ForcedChannel5k/figs/Spectra2D.pdf Graphic file (type pdf)
+
+<use /Users/jklymak/ForcedChannel5k/figs/Spectra2D.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/Spectra2D.pdf  use
+d on input line 252.
+(pdftex.def)             Requested size: 289.07999pt x 216.82005pt.
+</Users/jklymak/ForcedChannel5k/figs/UTempCont.pdf, id=190, 339.66899pt x 433.6
+2pt>
+File: /Users/jklymak/ForcedChannel5k/figs/UTempCont.pdf Graphic file (type pdf)
+
+<use /Users/jklymak/ForcedChannel5k/figs/UTempCont.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/UTempCont.pdf  use
+d on input line 264.
+(pdftex.def)             Requested size: 231.26378pt x 295.23483pt.
+
+Overfull \hbox (3.26378pt too wide) in paragraph at lines 264--268
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--277
+\OT1/cmr/m/n/10 drag []|   []
+ []
+
+</Users/jklymak/ForcedChannel5k/figs/BottomPressure.pdf, id=191, 289.08pt x 433
+.62pt>
+File: /Users/jklymak/ForcedChannel5k/figs/BottomPressure.pdf Graphic file (type
+ pdf)
+<use /Users/jklymak/ForcedChannel5k/figs/BottomPressure.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/BottomPressure.pdf
+  used on input line 280.
+(pdftex.def)             Requested size: 231.26378pt x 346.89647pt.
+
+Overfull \hbox (3.26378pt too wide) in paragraph at lines 280--284
+ [] 
+ []
+
+</Users/jklymak/ForcedChannel5k/figs/TimeSeries305.pdf, id=192, 289.08pt x 433.
+62pt>
+File: /Users/jklymak/ForcedChannel5k/figs/TimeSeries305.pdf Graphic file (type 
+pdf)
+<use /Users/jklymak/ForcedChannel5k/figs/TimeSeries305.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/TimeSeries305.pdf 
+ used on input line 294.
+(pdftex.def)             Requested size: 231.26378pt x 346.89647pt.
+
+Overfull \hbox (3.26378pt too wide) in paragraph at lines 294--298
+ [] 
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 302--303
+[]\OT1/cmr/m/n/10 Parameterizing the drag due to the rough
+ []
+
+[6] [7 </Users/jklymak/ForcedChannel5k/figs/ExampleTemps.pdf> </Users/jklymak/F
+orcedChannel5k/figs/Spectra2D.pdf
+
+pdfTeX warning: pdflatex (file /Users/jklymak/ForcedChannel5k/figs/Spectra2D.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+</Users/jklymak/ForcedChannel5k/figs/VaryH.pdf, id=343, 252.945pt x 231.26399pt
+>
+File: /Users/jklymak/ForcedChannel5k/figs/VaryH.pdf Graphic file (type pdf)
+<use /Users/jklymak/ForcedChannel5k/figs/VaryH.pdf>
+Package pdftex.def Info: /Users/jklymak/ForcedChannel5k/figs/VaryH.pdf  used on
+ input line 306.
+(pdftex.def)             Requested size: 180.67499pt x 165.19016pt.
+
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [8 </Users/jklymak/ForcedChannel5k/figs/UTempCont.pdf> </Users/jklymak/ForcedC
+hannel5k/figs/BottomPressure.pdf
+
+pdfTeX warning: pdflatex (file /Users/jklymak/ForcedChannel5k/figs/BottomPressu
+re.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+>] [9 </Users/jklymak/ForcedChannel5k/figs/TimeSeries305.pdf> </Users/jklymak/F
+orcedChannel5k/figs/VaryH.pdf
+
+pdfTeX warning: pdflatex (file /Users/jklymak/ForcedChannel5k/figs/VaryH.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 1308) in paragraph at lines 321--322
+|   [][]\OT1/cmr/m/n/10 . There are a few straight-forward
+ []
+
+</Users/jklymak/Dropbox/Goff_bathy/GoffResults.pdf, id=585, 953.1086pt x 579.60
+472pt>
+File: /Users/jklymak/Dropbox/Goff_bathy/GoffResults.pdf Graphic file (type pdf)
+
+<use /Users/jklymak/Dropbox/Goff_bathy/GoffResults.pdf>
+Package pdftex.def Info: /Users/jklymak/Dropbox/Goff_bathy/GoffResults.pdf  use
+d on input line 338.
+(pdftex.def)             Requested size: 487.8225pt x 296.65578pt.
+
+Overfull \hbox (19.8225pt too wide) in paragraph at lines 338--344
+ [] 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 357.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 357.
+
+[10
+
+] (./newversion.bbl
+Underfull \hbox (badness 1983) in paragraph at lines 41--44
+\OT1/cmr/m/n/8 double-ridge in-ter-nal tide res-o-nance in Lu-zon Strait.
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 41--44
+\OT1/cmr/m/it/8 J. Phys. Oceanogr.\OT1/cmr/m/n/8 , \OT1/cmr/bx/n/8 44 (3)\OT1/c
+mr/m/n/8 , 850--869, doi:$10 . 1175 /
+ []
+
+[11 </Users/jklymak/Dropbox/Goff_bathy/GoffResults.pdf>]
+Underfull \hbox (badness 1308) in paragraph at lines 95--100
+[]\OT1/cmr/m/n/8 Marshall, D. P., M. H. P. Am-baum, J. R. Mad-di-son,
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 95--100
+\OT1/cmr/m/n/8 D. R. Mun-day, and L. No-vak, 2017: Eddy sat-u-ra-
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 95--100
+\OT1/cmr/m/n/8 10 . 1002 / 2016gl071702$, URL $http : / / dx . doi . org / 10 .
+ 1002 /
+ []
+
+) [12] (./newversion.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.75pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4989 strings out of 492616
+ 70395 string characters out of 6129482
+ 179034 words of memory out of 5000000
+ 8812 multiletter control sequences out of 15000+600000
+ 14972 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 49i,14n,45p,1975b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on newversion.pdf (12 pages, 4125520 bytes).
+PDF statistics:
+ 774 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

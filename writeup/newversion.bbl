@@ -1,0 +1,182 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Abernathey and Cessi(2014)Abernathey, and Cessi}]{abernatheycessi14}
+Abernathey, R., and P.~Cessi, 2014: Topographic enhancement of eddy efficiency
+  in baroclinic equilibration. \textit{J. Phys. Oceanogr.}, \textbf{44~(8)},
+  2107--2126, \doi{10.1175/jpo-d-14-0014.1}.
+
+\bibitem[{Aguilar and Sutherland(2006)Aguilar, and
+  Sutherland}]{aguilarsutherland06}
+Aguilar, D., and B.~Sutherland, 2006: Internal wave generation from rough
+  topography. \textit{Physics of Fluids}, \textbf{18~(6)}, 066\,603.
+
+\bibitem[{Bacmeister and Pierrehumbert(1988)Bacmeister, and
+  Pierrehumbert}]{bacmeisterpierrhumbert88}
+Bacmeister, J., and R.~Pierrehumbert, 1988: On high-drag states of nonlinear
+  stratified flow over an obstacle. \textit{J. Atmos. Sci.}, \textbf{45~(1)},
+  63--80.
+
+\bibitem[{Bell(1975)}]{bell75a}
+Bell, T.~H., 1975: Topographically generated internal waves in the open ocean.
+  \textit{J. Geophys. Res.}, \textbf{80~(3)}, 320--327.
+
+\bibitem[{Broadbridge et~al.(2016)Broadbridge, Naveira~Garabato,, and
+  Nurser}]{broadbridgeetal16}
+Broadbridge, M.~B., A.~C. Naveira~Garabato, and A.~J.~G. Nurser, 2016: Forcing
+  of the overturning circulation across a circumpolar channel by internal wave
+  breaking. \textit{Journal of Geophysical Research: Oceans}, \textbf{121~(8)},
+  5436--5451, \doi{10.1002/2015jc011597},
+  \urlprefix\url{http://dx.doi.org/10.1002/2015JC011597}.
+
+\bibitem[{Buijsman et~al.(2014)}]{buijsmanetal14}
+Buijsman, M.~C., and Coauthors, 2014: Three-dimensional double-ridge internal
+  tide resonance in {Luzon} {Strait}. \textit{J. Phys. Oceanogr.},
+  \textbf{44~(3)}, 850--869, \doi{10.1175/JPO-D-13-024.1}.
+
+\bibitem[{de~Lavergne et~al.(2017)de~Lavergne, Madec, Roquet, Holmes,, and
+  McDougall}]{de_Lavergne_2017}
+de~Lavergne, C., G.~Madec, F.~Roquet, R.~M. Holmes, and T.~J. McDougall, 2017:
+  Abyssal ocean overturning shaped by seafloor distribution. \textit{Nature},
+  \textbf{551~(7679)}, 181--186, \doi{10.1038/nature24472},
+  \urlprefix\url{http://dx.doi.org/10.1038/nature24472}.
+
+\bibitem[{Garner(2005)}]{Garner05}
+Garner, S.~T., 2005: A topographic drag closure built on an analytical base
+  flux. \textit{J. Atmos. Sci.}, \textbf{62~(7)}, 2302--2315,
+  \doi{10.1175/jas3496.1}.
+
+\bibitem[{Goff and Arbic(2010)Goff, and Arbic}]{goffarbic10}
+Goff, J.~A., and B.~K. Arbic, 2010: Global prediction of abyssal hill roughness
+  statistics for use in ocean models from digital maps of paleo-spreading rate,
+  paleo-ridge orientation, and sediment thickness. \textit{Ocean Modelling},
+  \textbf{32~(1-2)}, 36--43, \doi{10.1016/j.ocemod.2009.10.001},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.ocemod.2009.10.001}.
+
+\bibitem[{Klymak(2018)}]{klymak18}
+Klymak, J.~M., 2018: Nonpropagating form drag and turbulence due to stratified
+  flow over large-scale abyssal hill topography. \textit{J. Phys. Oceanogr.},
+  \textbf{48~(10)}, 2383--2395, \doi{10.1175/jpo-d-17-0225.1},
+  \urlprefix\url{http://dx.doi.org/10.1175/JPO-D-17-0225.1}.
+
+\bibitem[{Klymak et~al.(2010)Klymak, Legg,, and Pinkel}]{klymaketal10a}
+Klymak, J.~M., S.~Legg, and R.~Pinkel, 2010: High-mode stationary waves in
+  stratified flow over large obstacles. \textit{J. Fluid Mech.}, \textbf{644},
+  312--336, \doi{10.1017/S0022112009992503}.
+
+\bibitem[{Klymak and Legg(2010)Klymak, and Legg}]{klymaklegg10}
+Klymak, J.~M., and S.~M. Legg, 2010: A simple mixing scheme for models that
+  resolve breaking internal waves. \textit{Ocean Modell.}, \textbf{33~(3-4)},
+  224 -- 234, \doi{10.1016/j.ocemod.2010.02.005}.
+
+\bibitem[{Klymak et~al.(2016)Klymak, Simmons, Braznikov, Kelly, MacKinnon,
+  Alford, Pinkel,, and Nash}]{klymaketal16b}
+Klymak, J.~M., H.~L. Simmons, D.~Braznikov, S.~Kelly, J.~A. MacKinnon, M.~H.
+  Alford, R.~Pinkel, and J.~D. Nash, 2016: Reflection of linear internal tides
+  from realistic topography: The {Tasman} continental slope. \textit{J. Phys.
+  Oceanogr.}, \doi{10.1175/jpo-d-16-0061.1}.
+
+\bibitem[{Lott and Miller(1997)Lott, and Miller}]{LottMiller97}
+Lott, F., and M.~J. Miller, 1997: A new subgrid-scale orographic drag
+  parametrization: Its formulation and testing. \textit{Quarterly Journal of
+  the Royal Meteorological Society}, \textbf{123~(537)}, 101--127,
+  \doi{10.1002/qj.49712353704}.
+
+\bibitem[{Marshall et~al.(2017)Marshall, Ambaum, Maddison, Munday,, and
+  Novak}]{Marshall_2017}
+Marshall, D.~P., M.~H.~P. Ambaum, J.~R. Maddison, D.~R. Munday, and L.~Novak,
+  2017: Eddy saturation and frictional control of the {Antarctic} {Circumpolar}
+  {Current}. \textit{Geophys. Res. Lett.}, \textbf{44~(1)}, 286--292,
+  \doi{10.1002/2016gl071702},
+  \urlprefix\url{http://dx.doi.org/10.1002/2016GL071702}.
+
+\bibitem[{Marshall et~al.(1997)Marshall, Adcroft, Hill, Perelman,, and
+  Heisey}]{marshalletal97}
+Marshall, J., A.~Adcroft, C.~Hill, L.~Perelman, and C.~Heisey, 1997: A
+  finite-volume, incompressible {Navier}-{Stokes} model for studies of the
+  ocean on parallel computers. \textit{J. Geophys. Res.}, \textbf{102~(C3)},
+  5753--5766, \doi{10.1029/96JC02775}.
+
+\bibitem[{Melet et~al.(2013)Melet, Hallberg, Legg,, and Polzin}]{meletetal13}
+Melet, A., R.~Hallberg, S.~Legg, and K.~Polzin, 2013: Sensitivity of the ocean
+  state to the vertical distribution of internal-tide-driven mixing. \textit{J.
+  Phys. Oceanogr.}, \textbf{43~(3)}, 602--615, \doi{10.1175/JPO-D-12-055.1}.
+
+\bibitem[{Munday et~al.(2015)Munday, Johnson,, and Marshall}]{Munday_2015}
+Munday, D.~R., H.~L. Johnson, and D.~P. Marshall, 2015: The role of ocean
+  gateways in the dynamics and sensitivity to wind stress of the early
+  antarctic circumpolar current. \textit{Paleoceanography}, \textbf{30~(3)},
+  284--302, \doi{10.1002/2014pa002675},
+  \urlprefix\url{http://dx.doi.org/10.1002/2014PA002675}.
+
+\bibitem[{Nikurashin and Ferrari(2010)Nikurashin, and
+  Ferrari}]{nikurashinferrari10a}
+Nikurashin, M., and R.~Ferrari, 2010: Radiation and dissipation of internal
+  waves generated by geostrophic motions impinging on small-scale topography:
+  Theory. \textit{Journal of Physical Oceanography}, \textbf{40~(5)},
+  1055--1074.
+
+\bibitem[{Nikurashin et~al.(2014)Nikurashin, Ferrari, Grisouard,, and
+  Polzin}]{nikurashinferrari14}
+Nikurashin, M., R.~Ferrari, N.~Grisouard, and K.~Polzin, 2014: The impact of
+  finite-amplitude bottom topography on internal wave generation in the
+  southern ocean. \textit{J. Phys. Oceanogr.}, \textbf{44~(11)}, 2938--2950,
+  \doi{10.1175/JPO-D-13-0201.1}.
+
+\bibitem[{Polzin(2009)}]{polzin09}
+Polzin, K.~L., 2009: An abyssal recipe. \textit{Ocean Modelling},
+  \textbf{30~(4)}, {298--309}, \doi{10.1016/j.ocemod.2009.07.007}.
+
+\bibitem[{Scinocca and McFarlane(2000)Scinocca, and
+  McFarlane}]{ScinoccaMcFarlane00}
+Scinocca, J.~F., and N.~A. McFarlane, 2000: The parametrization of drag induced
+  by stratified flow over anisotropic orography. \textit{Quarterly Journal of
+  the Royal Meteorological Society}, \textbf{126~(568)}, 2353--2393,
+  \doi{10.1002/qj.49712656802}.
+
+\bibitem[{Shakespeare and Hogg(2017)Shakespeare, and Hogg}]{ShakespeareHogg17}
+Shakespeare, C.~J., and A.~M. Hogg, 2017: The viscous lee wave problem and its
+  implications for ocean modelling. \textit{Ocean Modelling}, \textbf{113},
+  22--29, \doi{10.1016/j.ocemod.2017.03.006},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.ocemod.2017.03.006}.
+
+\bibitem[{Thompson and Naveira~Garabato(2014)Thompson, and
+  Naveira~Garabato}]{thompsonnaveiragarabato14}
+Thompson, A.~F., and A.~C. Naveira~Garabato, 2014: Equilibration of the
+  antarctic circumpolar current by standing meanders. \textit{Journal of
+  Physical Oceanography}, \textbf{44~(7)}, 1811--1828,
+  \doi{10.1175/jpo-d-13-0163.1},
+  \urlprefix\url{http://dx.doi.org/10.1175/JPO-D-13-0163.1}.
+
+\bibitem[{Trossman et~al.(2013)Trossman, Arbic, Garner, Goff, Jayne, Metzger,,
+  and Wallcraft}]{trossmanetal13}
+Trossman, D.~S., B.~K. Arbic, S.~T. Garner, J.~A. Goff, S.~R. Jayne, E.~J.
+  Metzger, and A.~J. Wallcraft, 2013: Impact of parameterized lee wave drag on
+  the energy budget of an eddying global ocean model. \textit{Ocean Modell.},
+  \textbf{72}, 119--142, \doi{10.1016/j.ocemod.2013.08.006}.
+
+\bibitem[{Trossman et~al.(2016)Trossman, Arbic, Richman, Garner, Jayne,, and
+  Wallcraft}]{trossmanetal2016}
+Trossman, D.~S., B.~K. Arbic, J.~G. Richman, S.~T. Garner, S.~R. Jayne, and
+  A.~J. Wallcraft, 2016: Impact of topographic internal lee wave drag on an
+  eddying global ocean model. \textit{Ocean Modell.}, \textbf{97}, 109--128,
+  \doi{10.1016/j.ocemod.2015.10.013}.
+
+\bibitem[{Trossman et~al.(2015)Trossman, Waterman, Polzin, Arbic, Garner,
+  Naveira-Garabato,, and Sheen}]{TrossmanEtAl15}
+Trossman, D.~S., S.~Waterman, K.~L. Polzin, B.~K. Arbic, S.~T. Garner, A.~C.
+  Naveira-Garabato, and K.~L. Sheen, 2015: Internal lee wave closures:
+  Parameter sensitivity and comparison to observations. \textit{Journal of
+  Geophysical Research: Oceans}, \textbf{120~(12)}, 7997--8019,
+  \doi{10.1002/2015jc010892},
+  \urlprefix\url{http://dx.doi.org/10.1002/2015JC010892}.
+
+\end{thebibliography}
