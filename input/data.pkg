@@ -7,4 +7,5 @@
  useMNC=.FALSE.,
  useNF90IO=.TRUE.,
  useRBCS=.FALSE.,
+ useBTFORCING=.TRUE.,
  /

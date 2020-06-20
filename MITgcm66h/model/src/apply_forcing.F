@@ -184,6 +184,15 @@ C-jmc: Without CD-scheme, this is OK ; but with CD-scheme, needs to cover [0:sNy
       ENDIF
 #endif /* ALLOW_MYPACKAGE */
 
+#ifdef ALLOW_BTFORCING
+      IF ( useBTFORCING ) THEN
+        CALL BTFORCING_TENDENCY_APPLY_U(
+     U                 gU_arr,
+     I                 iMin,iMax,jMin,jMax, k, bi,bj,
+     I                 myTime, myIter, myThid )
+      ENDIF
+#endif /* ALLOW_BTFORCING */
+
 #endif /* USE_OLD_EXTERNAL_FORCING */
 
       RETURN
@@ -352,14 +361,14 @@ C-jmc: Without CD-scheme, this is OK ; but with CD-scheme, needs to cover [0:sNx
       ENDIF
 #endif /* ALLOW_OBCS */
 
-#ifdef ALLOW_MYPACKAGE
-      IF ( useMYPACKAGE ) THEN
-        CALL MYPACKAGE_TENDENCY_APPLY_V(
+#ifdef ALLOW_BTFORCING
+      IF ( useBTFORCING ) THEN
+        CALL BTFORCING_TENDENCY_APPLY_V(
      U                 gV_arr,
      I                 iMin,iMax,jMin,jMax, k, bi,bj,
      I                 myTime, myIter, myThid )
       ENDIF
-#endif /* ALLOW_MYPACKAGE */
+#endif /* ALLOW_BTFORCING */
 
 #endif /* USE_OLD_EXTERNAL_FORCING */
 

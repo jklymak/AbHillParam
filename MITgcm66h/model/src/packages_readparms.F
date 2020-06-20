@@ -129,6 +129,7 @@ C       |
 C       |-- RUNCLOCK_READPARMS
 C       |
 C       |-- MYPACKAGE_READPARMS
+C       |-- BTFORCING_READPARMS
 
 C     !USES:
       IMPLICIT NONE
@@ -397,6 +398,10 @@ C--   if useRunClock=T, set RUNCLOCK parameters; otherwise just return
 #ifdef ALLOW_MYPACKAGE
 C--   if useMYPACKAGE=T, set mypackage parameters; otherwise just return
       CALL MYPACKAGE_READPARMS( myThid )
+#endif
+#ifdef ALLOW_BTFORCING
+C--   if useMYPACKAGE=T, set mypackage parameters; otherwise just return
+      CALL BTFORCING_READPARMS( myThid )
 #endif
 
       RETURN

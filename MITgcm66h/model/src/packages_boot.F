@@ -97,7 +97,8 @@ C     data.pkg namelists
      &          useNF90IO,
      &          useRunClock,
      &          useEMBED_FILES,
-     &          useMYPACKAGE
+     &          useMYPACKAGE,
+     &          useBTFORCING
 
       _BEGIN_MASTER(myThid)
 
@@ -163,6 +164,7 @@ c     useGAD          =.FALSE.
       useRunClock     =.FALSE.
       useEMBED_FILES  =.FALSE.
       useMYPACKAGE    =.FALSE.
+      useBulkForce    =.FALSE.
 
 C-    Adjust default to account for pkgs without run-time On/Off switch
 #ifdef ALLOW_AUTODIFF
@@ -407,6 +409,9 @@ C----- pkgs with a standard "usePKG" On/Off switch in "data.pkg":
 #endif
 #ifdef ALLOW_MYPACKAGE
       CALL PACKAGES_PRINT_MSG( useMYPACKAGE,  'MYPACKAGE',   ' ' )
+#endif
+#ifdef ALLOW_BTFORCING
+      CALL PACKAGES_PRINT_MSG( useBTFORCING,  'BTFORCING',   ' ' )
 #endif
 
 C----- pkgs without standard "usePKG" in "data.pkg":

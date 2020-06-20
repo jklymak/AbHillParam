@@ -22,9 +22,9 @@ if len(sys.argv)>=3:
     U0  = float(sys.argv[2])
     N0=1e-3
     f0=1.e-4
-if len(sys.argv)>=4:
+elif len(sys.argv)>=4:
     N0  = float(sys.argv[3])/10000
-if len(sys.argv)>=5:
+elif len(sys.argv)>=5:
     f0=float(sys.argv[4])/1000000
 else:
     sys.exit('GetEnergyBudget.py prefix U0 N0 f0')
@@ -37,7 +37,8 @@ submean = True
 v0 = np.array([0.,0.,0.])
 u0 = np.array([0.,0.,0.])
 dss = xr.open_dataset('../results/%s/input/final.nc' % pre,
-        chunks={'record':1, 'i': 30, 'i_g': 30})
+        chunks={'record':1, 'i': 32, 'i_g': 32})
+
 
 for i in range(3):
     g=9.8
@@ -97,7 +98,6 @@ print('Starting Body Force')
 ## sizes wrong here....
 V = xr.DataArray(0.5*(ds['VVEL'] + ds.VVEL.roll(j_g=1)).data,
         dims=('k','j','i'))
-
 xx=(V * ds['hFacC'] * f0 * U0 * ds['rA']).sum(dim=('j','i'))
 with ProgressBar():
     energy[1]['Bf'] = xx.data

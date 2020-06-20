@@ -1,8 +1,8 @@
 #!/bin/sh -l
 #PBS -m be
 #PBS -M jklymak@gmail.com
-#PBS -l select=1:ncpus=32:mpiprocs=32
-#PBS -l walltime=06:10:00
+#PBS -l select=2:ncpus=32:mpiprocs=32
+#PBS -l walltime=30:00:00
 #PBS -q standard
 #PBS -A ONRDC35552400
 #PBS -j oe
@@ -14,7 +14,7 @@
 cd $PBS_O_WORKDIR
 # top=$1  Passed as qsub  -v top=h60h27f20 runModel.sh
 
-PARENT=AbHillParam
+PARENT=AbHillIsolatedCoarse
 
 top=${PBS_JOBNAME}
 results=${WORKDIR}/${PARENT}/
@@ -32,8 +32,9 @@ outdir=$results$top
 #rm -rf ../archive/$top/indata/*
 
 cd $outdir/input
+cp data0 data
 pwd
 
 ls -al ../build/mitgcmuv
 printf "Starting: $outdir\n"
-aprun -n 32 ../build/mitgcmuv > mit.out
+aprun -n 64 ../build/mitgcmuv > mit.out

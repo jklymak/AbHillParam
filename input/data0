@@ -6,7 +6,7 @@
  &PARM01
  debuglevel=3,
  tRefFile='../indata/TRef.bin',
- sRef= 400*35.,
+ sRef= 200*35.,
  viscAz=1.E-5,
  viscAh=1.E-5,
  no_slip_sides=.FALSE.,
@@ -16,7 +16,7 @@
  implicitDiffusion=.TRUE.,
  implicitViscosity=.TRUE.,
  f0=1.E-4,
- beta=0.E-11,
+ beta=1.6E-11,
  eosType='LINEAR',
  tAlpha=2.E-4,
  sBeta =0.E-4,
@@ -52,20 +52,20 @@
 
 # Time stepping parameters
  &PARM03
- nIter0=0,
-# nTimeSteps=480,
- endTime=903700,
-# endTime=10800,
- deltaT=50.,
+ startTime=0,
+ endTime=25200000,
+ pickupStrictlyMatch=False,
+ deltaT=200,
  abEps=0.1,
- pChkptFreq=144000.0,
+# five days
+ pChkptFreq=432000.0,
  chkptFreq=0.,
  dumpFreq=0,
  dumpInitAndLast=.FALSE.
- monitorFreq=3600.,
+ monitorFreq=5000.,
  monitorSelect=2,
  rwSuffixType=2
-/
+ /
 
 # Gridding parameters
  &PARM04
@@ -78,7 +78,7 @@
 # Input datasets
  &PARM05
 # hydrogThetaFile='../indata/T.init',
-uVelInitFile='../indata/Uinit.bin',
+ uVelInitFile='../indata/Uforce.bin',
 # vVelInitFile='../indata/V.init',
 # pSurfInitFile='../indata/Eta.init',
  bathyFile='../indata/topog.bin',

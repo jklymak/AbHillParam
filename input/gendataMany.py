@@ -22,10 +22,11 @@ _log = logging.getLogger(__name__)
 
 def make_run(amp=200, u0=0, N0=1e-3, f0=1e-4, tideamp=0.025,
              tidefreq=0.000140752359, alongw=50e3, crossw=50e3,
+             average_space=1000e3,
              comments='None', runtype='low'):
 
 
-    runname='AHICT10BNoRbcs0%03damp%03df%02daw%03dcw%03dN%04d'%(u0*100, amp, f0*10**5, alongw/1e3, crossw/1e3, N0*1e4)
+    runname='AHMany%04d_%03damp%03df%02daw%03dcw%03dN%04d'%(average_space/1e3, u0*100, amp, f0*10**5, alongw/1e3, crossw/1e3, N0*1e4)
 
     # to change U we need to edit external_forcing recompile
 
@@ -221,21 +222,39 @@ def make_run(amp=200, u0=0, N0=1e-3, f0=1e-4, tideamp=0.025,
 
     ######## Bathy ############
     # get the topo:
-    X, Y = np.meshgrid(x-np.mean(x), y-np.mean(y))
-
+    X, Y = np.meshgrid(x, y)
     d=zeros((ny,nx))
-    h = np.exp(-(X/alongw)**2) * amp
-    indy = np.where(Y[:, 0] > crossw)[0];
-    yy = Y[indy, :] - Y[indy[0], :]
-    h[indy,:] = h[indy, :] * np.exp(-(yy/alongw)**2)
-    indy = np.where(Y[:, 0] < -crossw)[0];
-    yy = Y[indy, :] - Y[indy[-1], :]
-    h[indy,:] = h[indy, :] * np.exp(-(yy/alongw)**2)
+
+    # figure out how many:
+    nhx = np.round((x[-1] - x[0])/average_space)
+    nhy = np.round((y[-1] - y[0])/average_space)
+    Nhills = nhx * nhy
+    _log.info(f'Making {Nhills} hills')
+    np.random.seed(20200615)
+    for nh in np.arange(Nhills):
+        x0 = np.random.rand(1) * (x[-1] - x[0]) + x[0]
+        y0 = np.random.rand(1) * (y[-1] - y[0]) + y[0]
+        if nh == 0:
+            x0 = (x[-1] - x[0]) / 2
+            y0 = (y[-1] - y[0]) / 2
+        print(x0, y0)
+        h = np.exp(-((X - x0)/alongw)**2) * amp
+        indy = np.where((Y[:, 0] - y0) > crossw)[0];
+        if len(indy) > 0:
+
+            yy = Y[indy, :] - Y[indy[0], :]
+            h[indy,:] = h[indy, :] * np.exp(-(yy/alongw)**2)
+        indy = np.where(Y[:, 0] - y0 < -crossw)[0];
+        if len(indy) > 0:
+            yy = Y[indy, :] - Y[indy[-1], :]
+            h[indy,:] = h[indy, :] * np.exp(-(yy/alongw)**2)
+
+        d += h
 
     # we will add a seed just in case we want to redo this exact phase later...
 
 
-    d= h - H
+    d = d - H
 
     # put a wall at top to stop waves across overlap...
 
@@ -249,7 +268,7 @@ def make_run(amp=200, u0=0, N0=1e-3, f0=1e-4, tideamp=0.025,
     fig, ax = plt.subplots(2,1)
     _log.info('%s %s', shape(x),shape(d))
     ax[0].plot(x/1.e3,d[0,:].T)
-    pcm=ax[1].pcolormesh(x/1.e3,y/1.e3,d,rasterized=True)
+    pcm=ax[1].pcolormesh(x/1.e3,y/1.e3,d,rasterized=True, vmax=-3000)
     fig.colorbar(pcm,ax=ax[1])
     fig.savefig(outdir+'/figs/topo.png')
 
@@ -389,7 +408,9 @@ if 0:
     make_run(amp=200, u0=0.1, tideamp=0.00, alongw=50e3, crossw=50e3)
     make_run(amp=400, u0=-0.15, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3)
     make_run(amp=400, u0=0.15, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3)
-make_run(amp=400, u0=0.05, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3)
+make_run(amp=400, u0=0.2, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3, average_space=250e3)
+make_run(amp=400, u0=0.1, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3, average_space=250e3)
+make_run(amp=400, u0=0.05, tideamp=0.00, alongw=50e3, crossw=50e3, N0=1e-3, average_space=250e3)
 
 #make_run(amp=320, u0=0.07, tideamp=0.00, alongw=50e3, crossw=50e3)
 #make_run(amp=320, u0=0.1, tideamp=0.00, alongw=50e3, crossw=50e3, N0=2e-3)
